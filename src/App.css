@@ -1,0 +1,25 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height of the viewport */
+  text-align: center; /* Center text alignment */
+  padding: 20px; /* Padding for mobile view */
+}
+
+.content-textarea {
+  margin: 20px 0; /* Spacing around the textarea */
+  width: 80%; /* Responsive width */
+  max-width: 600px; /* Maximum width for larger screens */
+  height: 150px; /* Fixed height for textarea */
+  resize: none; /* Disable resizing */
+}
+
+.export-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  flex-wrap: wrap; /* Wrap buttons on smaller screens */
+}
